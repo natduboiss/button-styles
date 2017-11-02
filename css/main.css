@@ -11,3 +11,52 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+div a {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.125rem;
+  border-width: 3px;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #666;
+}
+
+.btn-subtle {
+  background-color: #ccc;
+  color: #fff;
+  border-width: 3px;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border-width: 3px;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+}
+
+.btn-warning {
+  background-color: #f33;
+  color: #fff;
+  border-width: 3px;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
